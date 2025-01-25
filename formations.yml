@@ -1,0 +1,11 @@
+name: formations
+channels:
+  - conda-forge
+dependencies:
+- python==3.10
+- pip
+- pip:
+    - empy==3.3.4
+    - catkin_pkg
+    - gtsam==4.2.0
+    - lark
